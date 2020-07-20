@@ -1,0 +1,68 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif, roboto;
+  margin: 2em;
+}
+
+h1 {
+  font-style: roboto;
+  color: #000000;
+  font-size: 100px;
+}
+.logo{
+  position: absolute;
+  top: -40%;
+}
+.opporteenity{
+  position: absolute;
+  top: 50%;
+}
+.t{
+  color: #FFB449;
+}
+.ee{
+  color:#54AFBC;
+}
+.n{
+  color: #FE5C36;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #54AFBC;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.categories{
+  text-align: center;
+}
+.icon{
+  text-align: center;
+}
