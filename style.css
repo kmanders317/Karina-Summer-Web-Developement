@@ -220,3 +220,10 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.info-landing{
+  width: 1000px;
+  text-align: center;
+  margin-left: 150px;
+  
+}
