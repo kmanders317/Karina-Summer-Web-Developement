@@ -222,8 +222,16 @@ h3{
 }
 
 .info-landing{
-  width: 1000px;
+  width: 65%;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 12%;
   
+}
+
+.black-link{
+  color: black;
+}
+
+.note{
+  font-size: 15px;
 }
