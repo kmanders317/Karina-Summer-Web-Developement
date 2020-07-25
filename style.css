@@ -18,10 +18,11 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 }
 .opporteenity{
   position: absolute;
-  top: 50%;
+  top: 0%;
 }
 .t{
   color: #FFB449;
@@ -32,7 +33,7 @@ h1 {
 .n{
   color: #FE5C36;
 }
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
   background-color: white;
   overflow: hidden;
@@ -65,10 +66,6 @@ h1 {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
-}
-
-.top-nav-color{
-  background-color: white;
 }
 
 .bottom-part-landingpage{
@@ -174,3 +171,52 @@ h1 {
   padding-right: 150px;
 }
 
+h3{
+  background-color: white;
+  padding-left: 200px;
+  padding-right: 1000px;
+  padding-top: 40px;
+  padding-bottom: 13px;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/b2d2ccd0-bf59-4ac3-84cf-6a1d79c05f11%2FVolunteer-image.jpg?v=1595574532734");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/b2d2ccd0-bf59-4ac3-84cf-6a1d79c05f11%2Fteamwork-makes-the-dream-work.jpg?v=1595574527338");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/b2d2ccd0-bf59-4ac3-84cf-6a1d79c05f11%2FLearn-image.jpg?v=1595574532096");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
